@@ -1,0 +1,109 @@
+site_name: Selenium Mastery Path
+site_description: A free Selenium WebDriver course — locators, waits, Page Object Model, Selenium Grid, and real test framework design.
+site_url: https://sigilipelli.github.io/selenium-mastery-path/
+repo_url: https://github.com/sigilipelli/selenium-mastery-path
+repo_name: selenium-mastery-path
+
+theme:
+  name: material
+  favicon: assets/favicon.svg
+  custom_dir: docs/overrides
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.footer
+    - navigation.indexes
+    - toc.follow
+    - content.code.copy
+    - content.code.annotate
+    - search.suggest
+    - search.highlight
+
+markdown_extensions:
+  - admonition
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - toc:
+      permalink: true
+
+extra_css:
+  - stylesheets/extra.css
+  - stylesheets/progress-tracker.css
+
+extra_javascript:
+  - javascripts/progress-tracker.js
+
+nav:
+  - Home: index.md
+  - Privacy Policy: privacy.md
+  - License: license.md
+  - "Level 1 · WebDriver Fundamentals & Locators":
+      - Overview: level-1/index.md
+      - "01 · What Selenium WebDriver Actually Does": level-1/01-what-webdriver-does.md
+      - "02 · Setting Up a Real WebDriver Session": level-1/02-webdriver-session-setup.md
+      - "03 · Locators: ID, Name, Class, Tag, Link Text": level-1/03-locators-basic.md
+      - "04 · Locators: CSS Selectors": level-1/04-locators-css.md
+      - "05 · Locators: XPath": level-1/05-locators-xpath.md
+      - "06 · Interacting With Elements: Click, Type, Clear": level-1/06-interacting-with-elements.md
+      - "07 · Dropdowns, Checkboxes & Radio Buttons": level-1/07-dropdowns-checkboxes-radios.md
+      - "08 · Browser Navigation: Back, Forward, Refresh": level-1/08-browser-navigation.md
+      - "09 · Reading Element State: Text, Attributes, Visibility": level-1/09-element-state.md
+      - "10 · Project — a Real Login Flow Test": level-1/10-project-login-flow-test.md
+  - "Level 2 · Waits, Synchronization & Robust Interactions":
+      - Overview: level-2/index.md
+      - "01 · The Real Race Condition: Why Tests Fail Without Waits": level-2/01-the-real-race-condition.md
+      - "02 · Implicit Waits": level-2/02-implicit-waits.md
+      - "03 · Explicit Waits & WebDriverWait": level-2/03-explicit-waits.md
+      - "04 · Custom Expected Conditions": level-2/04-custom-expected-conditions.md
+      - "05 · Handling Alerts, Confirms & Prompts": level-2/05-alerts-confirms-prompts.md
+      - "06 · Handling IFrames": level-2/06-handling-iframes.md
+      - "07 · Handling Multiple Windows & Tabs": level-2/07-multiple-windows-tabs.md
+      - "08 · Actions API: Mouse & Keyboard": level-2/08-actions-api.md
+      - "09 · File Upload & Stale Elements": level-2/09-file-upload-stale-elements.md
+      - "10 · Project — a Real Dynamic-Content Test Suite": level-2/10-project-dynamic-content-suite.md
+  - "Level 3 · Page Object Model & Test Architecture":
+      - Overview: level-3/index.md
+      - "01 · Why Page Object Model: the Problem Without It": level-3/01-why-page-object-model.md
+      - "02 · Building a Real Page Object": level-3/02-building-a-page-object.md
+      - "03 · Fluent Page Objects": level-3/03-fluent-page-objects.md
+      - "04 · Test Data Management": level-3/04-test-data-management.md
+      - "05 · pytest Fixtures for Selenium": level-3/05-pytest-fixtures-for-selenium.md
+      - "06 · Cross-Browser Testing": level-3/06-cross-browser-testing.md
+      - "07 · Headless vs Headed: What Actually Differs": level-3/07-headless-vs-headed.md
+      - "08 · Screenshots & Visual Debugging on Failure": level-3/08-screenshots-visual-debugging.md
+      - "09 · Flaky Test Diagnosis: Stale Elements & Friends": level-3/09-flaky-test-diagnosis.md
+      - "10 · Project — a Real POM Test Framework": level-3/10-project-pom-framework.md
+  - "Level 4 · Selenium Grid, Scaling & Production Practices":
+      - Overview: level-4/index.md
+      - "01 · Selenium Grid Architecture: Hub & Nodes": level-4/01-selenium-grid-architecture.md
+      - "02 · Running a Real Local Selenium Grid": level-4/02-running-a-real-grid.md
+      - "03 · Parallel Test Execution": level-4/03-parallel-test-execution.md
+      - "04 · Shadow DOM & Modern Web Components": level-4/04-shadow-dom.md
+      - "05 · JavaScript Execution via Selenium": level-4/05-javascript-execution.md
+      - "06 · Performance Insights via Selenium": level-4/06-performance-insights.md
+      - "07 · CI Integration: Running Selenium in a Pipeline": level-4/07-ci-integration.md
+      - "08 · Selenium vs Playwright: a Real, Honest Comparison": level-4/08-selenium-vs-playwright.md
+      - "09 · Common Selenium Anti-Patterns": level-4/09-selenium-antipatterns.md
+      - "10 · Capstone — a Real, Complete Test Framework": level-4/10-capstone-complete-test-framework.md
