@@ -1,6 +1,6 @@
 ---
 title: "Free Selenium WebDriver Course: Locators, Waits, Page Object Model & Grid"
-description: "Free Selenium WebDriver course: 36 lessons and 4 projects on locators, waits, Page Object Model, Selenium Grid, and real test framework design."
+description: "Free Selenium WebDriver course: 36 lessons, 3 projects and 1 capstone on locators, waits, Page Object Model, Selenium Grid, and real test framework design."
 ---
 
 # Selenium Mastery Path
@@ -37,7 +37,7 @@ against honestly in its final level.
 | **3 · Page Object Model & Test Architecture** | POM, fixtures, cross-browser, screenshots, flaky-test diagnosis | 10 | Structure a real, maintainable Selenium test suite |
 | **4 · Selenium Grid, Scaling & Production Practices** | Grid architecture, parallel execution, CI, Selenium vs Playwright | 10 | Scale and ship a real Selenium framework in production |
 
-Each level has 9 teaching modules plus a hands-on project (module 10), which makes **36 lessons and 4 projects** in total.
+Each level has 9 teaching modules plus a hands-on project (module 10), which makes **36 lessons, 3 projects and 1 capstone** in total.
 
 ## How to use this site
 
